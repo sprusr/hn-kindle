@@ -1,6 +1,6 @@
 # hn-kindle
 
-Create an eBook of the day's Hacker News articles and send it to your Kindle.
+Create an eBook of the day's Hacker News articles and send it to your Kindle. Inspired by [eink.news](https://github.com/eink-news/eink.news/).
 
 ## Setup
 
@@ -18,3 +18,5 @@ SENDGRID_API_KEY= # SendGrid API key you get when setting up
 ```
 
 You can optionally omit the email settings and eBooks will still be created, you'll just need to copy them over manually instead. This app also serves books over http using Koa.
+
+If you run the app with `--now`, it will run once and then quit. Useful if you just want some articles to read _right now_.

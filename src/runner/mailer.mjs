@@ -5,8 +5,6 @@ import sgMail from '@sendgrid/mail'
 const send = async (path) => {
   const { content, type } = await readBase64(path)
 
-  console.log(process.env.MAILTO)
-
   sgMail.setApiKey(process.env.SENDGRID_API_KEY)
   const msg = {
     to: process.env.MAILTO,

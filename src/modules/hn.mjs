@@ -12,9 +12,13 @@ const fetch = async (num) => {
   let articles = []
   for (let story of stories) {
     if (story.url) {
-      let dom = await JSDOM.fromURL(story.url, { pretendToBeVisual: true })
-      let article = new Readability(dom.window.document).parse()
-      articles.push(article)
+      try {
+        let dom = await JSDOM.fromURL(story.url, { pretendToBeVisual: true })
+        let article = new Readability(dom.window.document).parse()
+        articles.push(article)
+      } catch (e) {
+        console.error(`Could not parse '${story.title}': ${e}`)
+      }
     }
   }
 
