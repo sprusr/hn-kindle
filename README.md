@@ -1,5 +1,7 @@
 # hn-kindle
 
+<p><a href="https://glitch.com/edit/#!/remix/hn-kindle"><img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix%402x.png?1513093958726" alt="remix button" aria-label="remix" height="33"></a></p>
+
 Create an eBook of the day's Hacker News articles and send it to your Kindle. Inspired by [eink.news](https://github.com/eink-news/eink.news/).
 
 ## Setup
