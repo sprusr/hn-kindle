@@ -18,7 +18,7 @@
   "dependencies": {
     "@sendgrid/mail": "^6.2.1",
     "dotenv": "^5.0.1",
-    "epub-gen": "^0.0.20",
+    "epub-gen": "https://github.com/sprusr/epub-gen.git",
     "jsdom": "^11.10.0",
     "kindlegen": "^1.1.0",
     "koa": "^2.5.1",

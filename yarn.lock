@@ -763,8 +763,8 @@ domexception@^1.0.0:
     webidl-conversions "^4.0.2"
 
 domhandler@^2.3.0:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-2.4.1.tgz#892e47000a99be55bbf3774ffea0561d8879c259"
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-2.4.2.tgz#8805097e933d65e85546f726d60f5eb88b44f803"
   dependencies:
     domelementtype "1"
 
@@ -842,9 +842,9 @@ entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
-epub-gen@^0.0.20:
+"epub-gen@https://github.com/sprusr/epub-gen.git":
   version "0.0.20"
-  resolved "https://registry.yarnpkg.com/epub-gen/-/epub-gen-0.0.20.tgz#9b01ed9b1ffe204f63bdc64a95a3858818c2907b"
+  resolved "https://github.com/sprusr/epub-gen.git#7b8d83c4b5f1cf0605b214ce81b04decc6e24342"
   dependencies:
     archiver "^2.1.1"
     cheerio "^0.22.0"
